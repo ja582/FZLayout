@@ -10,14 +10,6 @@ body {
 #box2 {
     float: right;
 }
-#box3 {
-    clear: both;
-    float: right;
-}
-#box4 {
-    background-color: yellow;
-    float: right;
-}
 
 .box {
     width: 100px;
