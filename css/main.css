@@ -5,21 +5,21 @@ body {
 }
 #box1 {
     float: left;
-
 }
 #box2 {
     float: right;
 }
-
+#box3 {
+    clear: both;
+    float: right;
+}
 .box {
     width: 100px;
     height: 100px;
 }
-
 .fullborder {
     border: black solid thin;
 }
-
 #wrapper {
     width: 960px;
     height: 1553px;
@@ -39,12 +39,25 @@ body {
     line-height: 65px;
 }
 
+#content h2 {
+    font-size: 33px;
+    line-height: 52px;
+}
 img.splash{
     height: 50%;
     width: 50%;
     float: left;
     padding: 10px;
-
+}
+img.side{
+    height: 95%;
+    width: 95%;
+    padding: 5px;
+}
+#sidebar {
+    width: 367px;
+    float: left;
+}
 #footer {
     clear: both;
 }
